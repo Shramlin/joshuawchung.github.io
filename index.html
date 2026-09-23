@@ -6,6 +6,20 @@
     <style>
       body {background:#ffffff;}
       header {background: #faf3eb;}
+      .container {
+            display: flex;
+            align-items: center; 
+            gap: 30px;          
+            padding: 20px;
+        }
+
+        .text-content {
+            flex: 1;           
+        }
+
+        .image-content {
+            flex: 1;           
+        }
     </style>
   </head>
   <body>
@@ -18,13 +32,13 @@
       </div>
     </header>
 
-    <main>
-      <section>
-        <h3> Extracurriculars </h3>
-        <p> Scouting America: Star Scout <br> WHS Science Olympiad Team Gold <br> WHS JV Tennis <br> HESR Camp Staff</p>
+    <main class="container">
+      <section class="text-content">
+        <h3 style="font-size:20px;> Extracurriculars </h3>
+        <p style="font-size:15px;> Scouting America: Star Scout <br> WHS Science Olympiad Team Gold <br> WHS JV Tennis <br> HESR Camp Staff</p>
       </section>
-      <aside>
-        <img src="https://getstickbugged.lol/stickbug.gif" alt="Description" width="600">
+      <aside class="image-content">
+        <img src="Screenshot 2026-09-22 223454.png" alt="Description" width="600">
       </aside>
     </main>
   </body>
