@@ -10,13 +10,15 @@
             display: flex;}
             .text-content {
             flex: 1;
-            h3 {font-size: 64px;}
-            p  {font-size: 50px;}
+            h3 {font-size: clamp(1.5rem, 5vw + 1rem, 3.5rem);}
+            p  {font-size: clamp(1rem, 5vw + 1rem, 3rem);}
             padding-left: 20px;}
             .image-content {
             flex: 1;
             padding-right: 20px;
-            padding-top: 20px;}
+            padding-top: 20px;
+            max-width: 100%;
+            height: auto;}
     </style>
   </head>
   <body>
@@ -35,11 +37,11 @@
         <h3> Extracurriculars: </h3>
         <p> Scouting America: Star Scout <br> I am currently a star scout in Troop 72 Cerritos and I have been an active member of the troop since 2021. I have attended many backpacking and camping trips including Philmont, Dinkey Lakes, and Sequoia with my troop.</p>
         <br>
-        <p> WHS Science Olympiad: Team Gold </p> I am currently a part of Whitney High school's alternate team in our Science Olympiad course. I have been a member of the team since 2025 and was previously on the middle school Division B team in 2024. I have attended 7 competitions and have won first place in Helicopter C and Entomology C.
+        <p> WHS Science Olympiad: Team Gold <br> I am currently a part of Whitney High school's alternate team in our Science Olympiad course. I have been a member of the team since 2025 and was previously on the middle school Division B team in 2024. I have attended 7 competitions and have won first place in Helicopter C and Entomology C.</p>
         <br>
       </section>
       <aside class="image-content">
-        <img src="Screenshot 2026-09-22 223454.png" alt="Description" width="1200">
+        <img src="Screenshot 2026-09-22 223454.png" alt="Description">
       </aside>
     </main>
   </body>
